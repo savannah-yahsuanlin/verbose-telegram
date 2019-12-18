@@ -1,0 +1,70 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background-image: url(luis-rocha-cRqHwyVb9ts-unsplash.jpg);
+    background-size: cover;
+
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #777777;
+    font-size: 1.5rem;
+    text-align: left;
+    table-layout: fixed;
+  }
+
+caption{
+    margin: 3rem auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    caption-side: top; 
+}
+thead th:nth-child(1) {
+    width: 20%;
+    background-color: beige;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    background-color: azure;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+    background-color: bisque;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+    background-color: blanchedalmond;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: #777777 1px solid;
+  }
+tfoot{
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,1));
+}
+
+tfoot th{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #cfe6ef;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: cadetblue;
+  }
